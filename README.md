@@ -30,7 +30,7 @@ The repository includes the following scripts for reference purposes:
 
 ### **5️⃣ Active Learning with ENN**
 - **Script:** `Active_learning_ENN_data_parallelized.ipynb`
-- **Description:** Implements **active learning** using the **Evidential Neural Network**.
+- **Description:** Implements **active learning with data parallelization** using the **Evidential Neural Network**.
 
 ### **6️⃣ Maximum Surface Wind Speed Tracking (NCL)**
 - **Script:** `storm_track_WS_sea_masked.ncl`
