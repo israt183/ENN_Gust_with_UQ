@@ -54,6 +54,8 @@ If you find this repository useful, please cite our preprint :
       url={https://arxiv.org/abs/2502.00300}, 
 }
 
+For questions or collaborations, feel free to reach out via GitHub Issues or email at: israt.jahan@uconn.edu
+
 ### **🔹 Setting Up the Environment**
 To run the Python scripts, install the required dependencies:
 ```bash
