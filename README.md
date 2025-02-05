@@ -40,7 +40,7 @@ The repository includes the following scripts for reference purposes:
 ---
 
 ## **🔧 Usage**
-These scripts can be adapted to work with other datasets by modifying the data preprocessing steps. Ensure that your dataset follows a similar structure to the one used in this research. 
+The scripts shared here are for reference purposes and can be adapted to work with other datasets by modifying the data preprocessing steps. Ensure that your dataset follows a similar structure to the one used in this research. The repository will be updated with datasets used after the work is published. The required dependencies to run the scripts will also be provided later.
 
 ## **📜 Citation**
 If you find this repository useful, please cite our preprint :
@@ -56,7 +56,3 @@ If you find this repository useful, please cite our preprint :
 
 For questions or collaborations, feel free to reach out via GitHub Issues or email at: israt.jahan@uconn.edu
 
-### **🔹 Setting Up the Environment**
-To run the Python scripts, install the required dependencies:
-```bash
-pip install -r requirements.txt
