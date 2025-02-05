@@ -40,7 +40,7 @@ The repository includes the following scripts for reference purposes:
 ---
 
 ## **🔧 Usage**
-The scripts shared here are for reference purposes and can be adapted to work with other datasets by modifying the data preprocessing steps. Ensure that your dataset follows a similar structure to the one used in this research. The repository will be updated with datasets used after the work is published. The required dependencies to run the scripts will also be provided later.
+The scripts shared here are for reference purposes and can be adapted to work with other datasets by modifying the data preprocessing steps. Ensure that your dataset follows a similar structure to the one used in this research [arXiv](https://doi.org/10.48550/arXiv.2502.00300). The repository will be updated with datasets used after the work is published. The required dependencies to run the scripts will also be provided later.
 
 ## **📜 Citation**
 If you find this repository useful, please cite our preprint :
