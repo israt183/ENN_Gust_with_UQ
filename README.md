@@ -8,8 +8,7 @@ This repository contains selected scripts used in our research on **wind gust pr
 
 ---
 
-## **📂 Repository Structure**
-The repository includes the following scripts:
+The repository includes the following scripts for reference purposes:
 
 ### **1️⃣ Hyperparameter Tuning**
 - **Script:** `Hyperparameter_tuning.py`
@@ -41,7 +40,19 @@ The repository includes the following scripts:
 ---
 
 ## **🔧 Usage**
-These scripts can be adapted to work with other datasets by modifying the data preprocessing steps. Ensure that your dataset follows a similar structure to the one used in this research.  
+These scripts can be adapted to work with other datasets by modifying the data preprocessing steps. Ensure that your dataset follows a similar structure to the one used in this research. 
+
+## **📜 Citation**
+If you find this repository useful, please cite our preprint :
+@misc{jahan2025uncertaintyquantificationwindgust,
+      title={Uncertainty Quantification of Wind Gust Predictions in the Northeast US: An Evidential Neural Network and Explainable Artificial Intelligence Approach}, 
+      author={Israt Jahan and John S. Schreck and David John Gagne and Charlie Becker and Marina Astitha},
+      year={2025},
+      eprint={2502.00300},
+      archivePrefix={arXiv},
+      primaryClass={cs.LG},
+      url={https://arxiv.org/abs/2502.00300}, 
+}
 
 ### **🔹 Setting Up the Environment**
 To run the Python scripts, install the required dependencies:
