@@ -7,7 +7,7 @@ This repository contains selected scripts used in our research on **wind gust pr
 📄 **Preprint:** The preprint related to this work is available at [arXiv](https://doi.org/10.48550/arXiv.2502.00300).  
 
 ---
-
+## **📂 Repository Structure**
 The repository includes the following scripts for reference purposes:
 
 ### **1️⃣ Hyperparameter Tuning**
