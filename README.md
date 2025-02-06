@@ -1,8 +1,8 @@
 # Wind Gust Prediction with Uncertainty Qunatification with Evidential Neural Network
 
-This repository contains selected scripts used in our research on **wind gust prediction and uncertainty quantification** using Evidential Neural Networks (ENN). The scripts demonstrate **hyperparameter tuning, model training, spatial gradient analysis, active learning**, and **visualization of uncertainty** in wind gust predictions.  
+This repository contains selected scripts used in our research on **wind gust prediction and uncertainty quantification** using Evidential Neural Network (ENN). The scripts demonstrate **hyperparameter tuning, model training, spatial gradient analysis, active learning**, and **visualization of uncertainty** in wind gust predictions.  
 
-⚠️ **Data Availability:** Due to research agreements, the dataset used in this study cannot be shared at this time. The dataset will be made available after publication. However, the scripts can be formatted to be used with a different dataset, provided the necessary adjustments are made.  
+⚠️ **Data Availability:** Due to research agreements, the datasets used in this study cannot be shared at this time. The dataset will be made available after publication. However, the scripts can be formatted to be used with a different dataset, provided the necessary adjustments are made.  
 
 📄 **Preprint:** The preprint related to this work is available at [arXiv](https://doi.org/10.48550/arXiv.2502.00300).  
 
@@ -40,7 +40,7 @@ The repository includes the following scripts for reference purposes:
 ---
 
 ## **🔧 Usage**
-The scripts shared here are for reference purposes and can be adapted to work with other datasets by modifying the data preprocessing steps. Ensure that your dataset follows a similar structure to the one used in this research [arXiv](https://doi.org/10.48550/arXiv.2502.00300). The repository will be updated with datasets used after the work is published. The required dependencies to run the scripts will also be provided later.
+The scripts shared here are for reference purposes and can be adapted to work with other datasets by modifying the data preprocessing steps. Ensure that your dataset follows a similar structure to the one used in this research [arXiv](https://doi.org/10.48550/arXiv.2502.00300). The repository will be updated with original datasets after the work is published. The required dependencies to run the scripts will also be provided later.
 
 ## **📜 Citation**
 If you find this repository useful, please cite our preprint :
