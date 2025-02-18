@@ -17,7 +17,7 @@ The repository includes the following scripts for reference purposes:
 
 ### **2️⃣ Model Training & Testing**
 - **Script:** `Model_train_and_test.ipynb`
-- **Cinfiguration file:**best.yml is the model configuration file with the optimized hyperparameters
+- **Configuration file:** best.yml is the model configuration file with the optimized hyperparameters
 - **Description:** Trains an **Evidential Neural Network (ENN)** and performs inference on test data.
 - **Dependency:** [MILES-GUESS](https://github.com/ai2es/miles-guess/tree/main/mlguess)
 
