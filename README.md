@@ -33,7 +33,7 @@ The repository includes the following scripts for reference purposes:
 - **Script:** `Active_learning_ENN_data_parallelized.ipynb`
 - **Description:** Implements **active learning with data parallelization** using the **Evidential Neural Network**.
 
-### **6️⃣ Maximum Surface Wind Speed Tracking (NCL)**
+### **6️⃣ Maximum Surface Wind Speed Tracking**
 - **Script:** `storm_track_WS_sea_masked.ncl`
 - **Description:** Computes **maximum surface wind speeds** and their locations at each hour over a storm duration.
 - **Note:** This script requires **WRF output files** from the storm simulation.
