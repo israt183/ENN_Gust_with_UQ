@@ -1,0 +1,73 @@
+callbacks:
+  CSVLogger:
+    append: false
+    filename: training_log.csv
+    separator: ','
+  EarlyStopping:
+    mode: min
+    monitor: val_loss
+    patience: 5
+    verbose: 0
+  ModelCheckpoint:
+    filepath: model.h5
+    mode: min
+    monitor: val_loss
+    save_best_only: true
+    save_weights: true
+    verbose: 0
+  ReduceLROnPlateau:
+    factor: 0.1
+    min_delta: 1.0e-08
+    min_lr: 1.0e-12
+    mode: min
+    monitor: val_loss
+    patience: 2
+    verbose: 0
+met_vars:
+- WS_950mb(m/s)
+- WS_850mb(m/s)
+- WS_10m(m/s)
+- PBLH(km)
+- Ustar(m/s)
+- Temp_grad(1km_sfc)(C/km)
+- Temp_grad(2km_sfc)(C/km)
+- Terrain_height(m)
+- WindDC(cos)
+- WindDC(sin)
+- yday
+model:
+  activation: relu
+  batch_size: 12415
+  dropout_alpha: 0.152712630043728
+  epochs: 2000
+  evidential_coef: 0.5880854988378059
+  hidden_layers: 1
+  hidden_neurons: 823
+  kernel_reg: l2
+  l1_weight: 5.13946696844333e-11
+  l2_weight: 5.1109726042924564e-08
+  loss: evidentialReg
+  lr: 1.6914868229211361e-06
+  metrics: mae
+  optimizer: adam
+  use_dropout: true
+  use_noise: false
+  verbose: 2
+output_vars:
+- WG_o(m/s)
+pbs:
+  account: NAML0001
+  env_setup: "source ~/.bashrc \nmodule unload cuda cudnn \nconda activate guess-gpu3\n\
+    CUDNN_PATH=$(dirname $(python -c \"import nvidia.cudnn;print(nvidia.cudnn.__file__)\"\
+    ))\nexport LD_LIBRARY_PATH=$LD_LIBRARY_PATH:$CONDA_PREFIX/lib/:$CUDNN_PATH/lib\n\
+    export XLA_FLAGS=--xla_gpu_cuda_data_dir=$CONDA_PREFIX"
+  gpu_type: v100
+  mem: 128GB
+  name: ev-prod
+  ncpus: 8
+  ngpus: 1
+  queue: casper
+  select: 1
+  walltime: 43200
+save_loc: /glade/u/home/ijahan/notebook_evidential_IJ/Gridded_preds/Data
+seed: 0
